@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src="js/gallery.js"></script>
+</head>
+<body onload="addTabFocus()">
+	<div id="image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class="preview" alt="Styling with a Bandana" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+	
+	<img class="preview" alt="With My Boy" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+	
+	<img class="preview" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt="Young Puppy" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+	<!-- Add more images with the same attributes for accessibility -->
+  <img class="preview" src="https://i.ytimg.com/vi/2EfHtzauHcM/maxresdefault.jpg" alt="Golden Retriever" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+  
+  <img class="preview" src="https://media.allure.com/photos/6459151eff1ce70430ef481b/4:3/w_1655,h_1241,c_limit/taylor%20swift%20southern%20humidity%20curls%20hero.jpg" alt="Taylor" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+  
+  <img class="preview" src="https://img.onmanorama.com/content/dam/mm/en/food/recipe/images/2023/5/9/chocolate-pastry.jpg" alt="pastry!!" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+  
+  
+</body>
+</html>
